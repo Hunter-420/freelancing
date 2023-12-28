@@ -1,17 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&display=swap');
+
 .title{
     /* Sign In */
 
-position: absolute;
-width: 87px;
-height: 22px;
-left: calc(50% - 87px/2);
-top: 30px;
+    position: absolute;
+    width: 315px;
+    height: 65px;
+left: 50%;
+top: 20%;
+transform: translate(-50%, -0%); /* Center horizontally and vertically */
 
 font-family: 'Nunito';
 font-style: normal;
 font-weight: 600;
-font-size: 20px;
+font-size: 30px;
 line-height: 22px;
 /* identical to box height, or 110% */
 text-align: center;
@@ -22,55 +24,81 @@ color: #525464;
 
 }
 
-.clientLogin{
+.clientLogin {
     /* Client Login */
-    /* Button_login */
+    /* Base */
+    position: absolute;
+    width: 315px;
+    height: 65px;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%); /* Center horizontally and vertically */
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.375px;
+  
+    color: #FFFFFF;
+    background: #505F98;
+  }
 
-position: absolute;
-left: 31.09%;
-right: 31.09%;
-top: 33.51%;
-bottom: 57.65%;
+  .freelincerLogin {
+    /* Client Login */
+    /* Base */
+    position: absolute;
+    width: 315px;
+    height: 65px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); /* Center horizontally and vertically */
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.375px;
+  
+    color: #FFFFFF;
+    background: #505F98;
+  }
 
-width: 315px;
-height: 65px;
-
-background: #505F98;
-
-
-/* Base */
-
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
-background: #505F98;
-
-
-/* Login */
+  .dont_have_account{
+    /* Don’t have an accoun */
 
 position: absolute;
 height: 22px;
-left: 32.38%;
-right: 32.38%;
-top: calc(50% - 22px/2 + 0.45px);
+left: 34.81%;
+right: 35.17%;
+top: 60%;
 
 font-family: 'Nunito';
 font-style: normal;
-font-weight: 600;
+font-weight: 500;
 font-size: 16px;
 line-height: 22px;
-/* identical to box height */
+/* identical to box height, or 138% */
 text-align: center;
-letter-spacing: 0.4px;
+letter-spacing: 0.333333px;
 
-color: #FFFFFF;
+color: #838391;
 
 
+  }
+.dont_have_account h1 span{
+    color: #505F98;
+    cursor: pointer;
 }
 
-.freelincerLogin{
-    /* Freelincer Login */
-}
+  

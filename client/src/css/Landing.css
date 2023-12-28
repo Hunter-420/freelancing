@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-.title{
+.title_man{
     /* Title */
+/* Title */
 
 position: absolute;
 width: 539px;
 height: 100px;
 left: 111px;
-right: 790px;
 top: 349px;
 
 font-family: 'Roboto';
@@ -19,6 +19,8 @@ letter-spacing: 1px;
 
 /* Colour/Main/Blue/900 */
 color: #091133;
+
+
 
 
 }
@@ -47,12 +49,5 @@ color: #505F98;
 
 }
 
-.landing-img{
-    /* Landing Image */
-    position: absolute;
-    width: 1000px;
-    height: 800px;
 
-
-}
 

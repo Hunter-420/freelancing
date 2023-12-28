@@ -44,12 +44,17 @@ export default function Landing() {
             {/* contents */}
             <div className="grid grid-cols-8">
             <div className="col-span-3">
-                <h1 className="title">Experience the future of freelance payments with us!</h1>
+                <h1 className="title_man">Experience the future of freelance payments with us!</h1>
                 <p className="paragraph">Our platform leverages cutting-edge blockchain technology to revolutionize how freelancers and clients engage. Say goodbye to payment hassles and hello to a simple, secure, and efficient system.
 No platform fees, no commissions, no hassle. </p>
             </div>
-            <div className="col-span-5">
-                <img src={LandingBackImg} alt="landing" className="landing-img" />
+            <div className="col-span-5"  style={{
+ backgroundImage: `url('/img/landing.png')`,    backgroundSize: 'cover', // or 'contain' based on your preference
+    backgroundRepeat: 'no-repeat',
+    width: '100%', // Add width to the container
+    height: '90vh', 
+    border: 'none',
+}}>
             </div>
             </div>
         </>
