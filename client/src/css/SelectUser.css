@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&display=swap');
+.title{
+    /* Sign In */
+
+position: absolute;
+width: 87px;
+height: 22px;
+left: calc(50% - 87px/2);
+top: 30px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 22px;
+/* identical to box height, or 110% */
+text-align: center;
+letter-spacing: 0.375px;
+
+color: #525464;
+
+
+}
+
+.clientLogin{
+    /* Client Login */
+    /* Button_login */
+
+position: absolute;
+left: 31.09%;
+right: 31.09%;
+top: 33.51%;
+bottom: 57.65%;
+
+width: 315px;
+height: 65px;
+
+background: #505F98;
+
+
+/* Base */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #505F98;
+
+
+/* Login */
+
+position: absolute;
+height: 22px;
+left: 32.38%;
+right: 32.38%;
+top: calc(50% - 22px/2 + 0.45px);
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.4px;
+
+color: #FFFFFF;
+
+
+}
+
+.freelincerLogin{
+    /* Freelincer Login */
+}
