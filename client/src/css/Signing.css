@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&display=swap');
+
+*{
+    background: #F2F5FF;
+}
+
+.signing_svg{
+    position: absolute;
+left: 50%;
+top: 35%;
+bottom: 73.6%;
+width: 300px;
+height: 200px;
+
+transform: translate(-50%, -35%);
+}
+
+.loginContainer {
+    /* Client and Freelancer Login Container */
+    position: absolute;
+    width: 315px;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    gap: 50px; /* Adjust the gap between Client and Freelancer logins */
+  }
+
+.user_name,.password{
+    /* Input Placeholder */
+   
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+padding-left: 5px;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+letter-spacing: 0.4px;
+
+color: #49494a;
+background: #FFFFFF;
+
+
+}
+

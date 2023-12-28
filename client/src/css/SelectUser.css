@@ -1,104 +1,88 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&display=swap');
 
-.title{
-    /* Sign In */
-
-    position: absolute;
-    width: 315px;
-    height: 65px;
-left: 50%;
-top: 20%;
-transform: translate(-50%, -0%); /* Center horizontally and vertically */
-
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 600;
-font-size: 30px;
-line-height: 22px;
-/* identical to box height, or 110% */
-text-align: center;
-letter-spacing: 0.375px;
-
-color: #525464;
-
-
+/* Container */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
 }
 
-.clientLogin {
-    /* Client Login */
-    /* Base */
-    position: absolute;
-    width: 315px;
-    height: 65px;
-    left: 50%;
-    top: 40%;
-    transform: translate(-50%, -50%); /* Center horizontally and vertically */
-  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    text-align: center;
-    letter-spacing: 0.375px;
-  
-    color: #FFFFFF;
-    background: #505F98;
-  }
-
-  .freelincerLogin {
-    /* Client Login */
-    /* Base */
-    position: absolute;
-    width: 315px;
-    height: 65px;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%); /* Center horizontally and vertically */
-  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    text-align: center;
-    letter-spacing: 0.375px;
-  
-    color: #FFFFFF;
-    background: #505F98;
-  }
-
-  .dont_have_account{
-    /* Don’t have an accoun */
-
-position: absolute;
-height: 22px;
-left: 34.81%;
-right: 35.17%;
-top: 60%;
-
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 22px;
-/* identical to box height, or 138% */
-text-align: center;
-letter-spacing: 0.333333px;
-
-color: #838391;
-
-
-  }
-.dont_have_account h1 span{
-    color: #505F98;
-    cursor: pointer;
+.col-span-2 {
+  grid-column: span 2;
 }
 
-  
+.title {
+  /* Sign In */
+  position: absolute;
+  width: 315px;
+  height: 65px;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -0%);
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: 0.375px;
+  color: #525464;
+}
+
+.loginContainer {
+  /* Client and Freelancer Login Container */
+  position: absolute;
+  width: 315px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  gap: 50px; /* Adjust the gap between Client and Freelancer logins */
+}
+
+.clientLogin,
+.freelancerLogin {
+  /* Common styles for Client and Freelancer Login */
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.375px;
+  color: #FFFFFF;
+  background: #505F98;
+  cursor: pointer;
+}
+
+.clientLogin:hover,
+.freelancerLogin:hover {
+  /* Hover styles for Client and Freelancer Login */
+  background: #445282;
+  cursor: pointer;
+}
+
+.dont_have_account {
+  /* Don’t have an accoun */
+  position: absolute;
+  height: 22px;
+  left: 34.81%;
+  right: 35.17%;
+  top: 70%;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.333333px;
+  color: #838391;
+}
+
+.dont_have_account h1 span {
+  color: #505F98;
+  cursor: pointer;
+}
